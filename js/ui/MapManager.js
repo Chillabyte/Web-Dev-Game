@@ -18,7 +18,7 @@ export default class MapManager{
         for(let x=0; x<boardWidth; x++){
             for(let y=0; y<boardHeight; y++ ){
                 const newCell = cellTemplate.cloneNode(true);
-                newCell.id=`${x}-${y}`
+                newCell.id=`cell-${x}-${y}`
                 board.appendChild(newCell);
             }
         }
