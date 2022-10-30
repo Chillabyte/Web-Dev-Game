@@ -1,0 +1,16 @@
+@import "reset.css";
+@import "custom-properties.css";
+
+@import "elements/document.css";
+@import "elements/header.css";
+@import "elements/nav.css";
+@import "elements/main.css";
+@import "elements/footer.css";
+
+@import "layouts/document.css";
+@import "layouts/header.css";
+@import "layouts/nav.css";
+@import "layouts/main.css";
+@import "layouts/footer.css";
+
+@import "shame.css"

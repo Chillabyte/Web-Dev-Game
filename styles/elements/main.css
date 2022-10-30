@@ -1,0 +1,29 @@
+main{
+    background: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#templates{
+    display: none;
+}
+
+#game-board{
+    display: grid;
+    width: calc(var(--board-width) * var(--cell-size));
+    grid-template-columns: repeat(var(--board-width), var(--cell-size));
+}
+
+#game-board > .cell{
+    outline: var(--cell-border);
+    outline-offset: -1px;
+    width: var(--cell-size);
+    height: var(--cell-size);
+}
+
+#player{
+
+}
+

@@ -1,0 +1,20 @@
+/*
+
+Define custom properties here.
+
+*/
+
+:root{
+    --gradient-background:radial-gradient(#000, #151515);
+    --header-bg-color: var(--gradient-background);
+    --main-bg-color:var(--gradient-background);
+    --nav-bg-color:var(--gradient-background);
+    --footer-bg-color:var(--gradient-background);
+
+    --text-color: rgb(200, 200, 200);
+
+    --cell-size: 100px;
+    --board-width: 5;
+
+    --cell-border: 1px solid rgba(255, 255, 255, .05);
+}
