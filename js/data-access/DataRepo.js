@@ -1,6 +1,6 @@
 export default class DataRepo{
-    constructor(message){
-        this.message = message;
+    constructor(){
+        this.message = "Data Repo Working!";
     }
 
     log(){

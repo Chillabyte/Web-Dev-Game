@@ -1,10 +1,11 @@
 export default class MapManager{
-    constructor(message){
-        this.message = message;
+    constructor(){
+        this.message = "message";
+        this.walkable = new Array();
     }
 
     log(){
-        console.table(this);
+        console.log("Map Manager Working!!!");
     }
 
     initializeBoard(){
@@ -15,11 +16,13 @@ export default class MapManager{
 
         const cellTemplate = document.querySelector("#templates > .cell");
 
-        for(let x=0; x<boardWidth; x++){
-            for(let y=0; y<boardHeight; y++ ){
+        for(let x=0; x<boardHeight; x++){
+            for(let y=0; y<boardWidth; y++ ){
                 const newCell = cellTemplate.cloneNode(true);
-                newCell.id=`cell-${x}-${y}`
+                const cellId = `cell-${x}-${y}`;
+                newCell.id = cellId;
                 board.appendChild(newCell);
+                this.walkable.push(cellId);
             }
         }
     }
@@ -44,6 +47,10 @@ export default class MapManager{
         const finalSize = Math.floor(Math.min(cellSizeWidth, cellSizeHeight));
         document.querySelector(":root").style.setProperty("--cell-size", `${finalSize}px`);
         document.querySelector(":root").style.setProperty("--board-width", `${boardWidth}`);
+    }
+
+    checkCell(cellId){
+        return this.walkable.includes(cellId);
     }
     
 }
