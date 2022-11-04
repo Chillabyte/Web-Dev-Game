@@ -27,3 +27,6 @@ main{
     fill: var(--player-color);
 }
 
+#player *{
+    fill: white;
+}
