@@ -109,3 +109,4 @@ Each piece of equipment has an Equipment Load requirement.
 | Three | 3 |
 # Static-Site-Framework
 Files and structure for a site static site.
+
