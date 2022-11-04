@@ -4,9 +4,9 @@
 ## Installation Instructions ##
 
 ### Download ###
-
+This a web page yo! Jus slap it down anywhere!
 ### Run ###
-
+Double click index.html.
 ## Attributes
 All attributes start at 1. Each attribute has two related pools that equals the value of the attribute * 10.
 
@@ -54,16 +54,23 @@ Each piece of equipment has an Equipment Load requirement.
 | Name| Cost  |
 | ---: | :--- |
 | Clothes | 5 |
-| Leather Armor | 10 | 
-| Heavy Armor | 20 |
+| Leather Armor | 7 | 
+| Chain Armor | 20 |
+| Scale Armor | 30 |
+| Plate Armor | 40 |
 
 ### Offensive Examples
 
 | Name| Cost  |
 | ---: | :--- |
-| Dagger | 5 |
-| Short Sword | 7 | 
-| Big Sword | 10 |
+| Dagger | 3 |
+| Staff | 5 |
+| Short Sword | 10 | 
+| Long Sword | 20 |
+| Hand Axe | 30 |
+| Battle Axe | 40 |
+
+
 
 ## Skills
 
@@ -89,7 +96,7 @@ Each piece of equipment has an Equipment Load requirement.
 
 | Name| Cost  |
 | ---: | :--- |
-| One | 1 |
+| Magic Missle | 1 |
 | Two | 2 | 
 | Three | 3 |
 
